@@ -1,0 +1,12 @@
+.galleryList {
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+}
+  
+.galleryItem {    
+  flex-basis: calc((100% - 45px) / 4);    
+}
